@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | [Challenge Name Here]</title>
@@ -12,13 +12,17 @@
   
 </head>
 <body>
-  <p>Annually</p>
   <h1>Our Pricing</h1>
-  <label class="switch">
+
+  <div class="toggle-switch">
+    <p>Annually</p>
+   <label class="switch">
     <input type="checkbox">
     <span class="slider round"></span>
   </label>
   <p>Monthly</p>
+  </div>
+  
   
   <main class="container">
     <div>
@@ -31,7 +35,7 @@
   Learn More
     </div>
 
-    <div>
+    <div class="box-1">
       <p>Basic</p>
       <p id ="monthly">&dollar;19.99</p>
       <p id="yearly"></p>&dollar;199.99
@@ -41,7 +45,7 @@
   <p class="btn btn-primary"><a href="#">Learn More</a></p>
     </div>
 
-    <div>
+    <div class="box-2">
       <p>Professional</p>
   <p id ="monthly">&dollar;24.99</p>
   <p id="yearly">&dollar;249.99</p>
@@ -51,7 +55,7 @@
   <p class="btn btn-light"><a href="#">Learn More</a></p>
     </div>
 
-    <div>
+    <div class="box-3">
       <p>Master</p>
   <p id ="monthly">&dollar;39.99</p>
   <p id="yearly">&dollar;399.99</p>
